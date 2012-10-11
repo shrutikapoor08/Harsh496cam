@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A03DC7F1627511300E901BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC7E1627511300E901BB /* UIKit.framework */; };
+		3A03DC811627511300E901BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC801627511300E901BB /* Foundation.framework */; };
+		3A03DC831627511300E901BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC821627511300E901BB /* CoreGraphics.framework */; };
+		3A03DC891627511300E901BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A03DC871627511300E901BB /* InfoPlist.strings */; };
+		3A03DC8B1627511400E901BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03DC8A1627511400E901BB /* main.m */; };
+		3A03DC8F1627511400E901BB /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03DC8E1627511400E901BB /* HelloWorldAppDelegate.m */; };
+		3A03DC921627511400E901BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03DC901627511400E901BB /* MainStoryboard.storyboard */; };
+		3A03DC951627511400E901BB /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03DC941627511400E901BB /* HelloWorldViewController.m */; };
+		3A03DC9D1627511400E901BB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC9C1627511400E901BB /* SenTestingKit.framework */; };
+		3A03DC9E1627511400E901BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC7E1627511300E901BB /* UIKit.framework */; };
+		3A03DC9F1627511400E901BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DC801627511300E901BB /* Foundation.framework */; };
+		3A03DCA71627511400E901BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A03DCA51627511400E901BB /* InfoPlist.strings */; };
+		3A03DCAA1627511400E901BB /* spycamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03DCA91627511400E901BB /* spycamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A03DCA01627511400E901BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A03DC711627511300E901BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A03DC791627511300E901BB;
+			remoteInfo = spycam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A03DC7A1627511300E901BB /* spycam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spycam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A03DC7E1627511300E901BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A03DC801627511300E901BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A03DC821627511300E901BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A03DC861627511300E901BB /* spycam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spycam-Info.plist"; sourceTree = "<group>"; };
+		3A03DC881627511300E901BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A03DC8A1627511400E901BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A03DC8C1627511400E901BB /* spycam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spycam-Prefix.pch"; sourceTree = "<group>"; };
+		3A03DC8D1627511400E901BB /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		3A03DC8E1627511400E901BB /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		3A03DC911627511400E901BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3A03DC931627511400E901BB /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		3A03DC941627511400E901BB /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		3A03DC9B1627511400E901BB /* spycamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spycamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A03DC9C1627511400E901BB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A03DCA41627511400E901BB /* spycamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spycamTests-Info.plist"; sourceTree = "<group>"; };
+		3A03DCA61627511400E901BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A03DCA81627511400E901BB /* spycamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spycamTests.h; sourceTree = "<group>"; };
+		3A03DCA91627511400E901BB /* spycamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spycamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A03DC771627511300E901BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DC7F1627511300E901BB /* UIKit.framework in Frameworks */,
+				3A03DC811627511300E901BB /* Foundation.framework in Frameworks */,
+				3A03DC831627511300E901BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A03DC971627511400E901BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DC9D1627511400E901BB /* SenTestingKit.framework in Frameworks */,
+				3A03DC9E1627511400E901BB /* UIKit.framework in Frameworks */,
+				3A03DC9F1627511400E901BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A03DC6F1627511300E901BB = {
+			isa = PBXGroup;
+			children = (
+				3A03DC841627511300E901BB /* spycam */,
+				3A03DCA21627511400E901BB /* spycamTests */,
+				3A03DC7D1627511300E901BB /* Frameworks */,
+				3A03DC7B1627511300E901BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A03DC7B1627511300E901BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DC7A1627511300E901BB /* spycam.app */,
+				3A03DC9B1627511400E901BB /* spycamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A03DC7D1627511300E901BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DC7E1627511300E901BB /* UIKit.framework */,
+				3A03DC801627511300E901BB /* Foundation.framework */,
+				3A03DC821627511300E901BB /* CoreGraphics.framework */,
+				3A03DC9C1627511400E901BB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A03DC841627511300E901BB /* spycam */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DC8D1627511400E901BB /* HelloWorldAppDelegate.h */,
+				3A03DC8E1627511400E901BB /* HelloWorldAppDelegate.m */,
+				3A03DC901627511400E901BB /* MainStoryboard.storyboard */,
+				3A03DC931627511400E901BB /* HelloWorldViewController.h */,
+				3A03DC941627511400E901BB /* HelloWorldViewController.m */,
+				3A03DC851627511300E901BB /* Supporting Files */,
+			);
+			path = spycam;
+			sourceTree = "<group>";
+		};
+		3A03DC851627511300E901BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DC861627511300E901BB /* spycam-Info.plist */,
+				3A03DC871627511300E901BB /* InfoPlist.strings */,
+				3A03DC8A1627511400E901BB /* main.m */,
+				3A03DC8C1627511400E901BB /* spycam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A03DCA21627511400E901BB /* spycamTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DCA81627511400E901BB /* spycamTests.h */,
+				3A03DCA91627511400E901BB /* spycamTests.m */,
+				3A03DCA31627511400E901BB /* Supporting Files */,
+			);
+			path = spycamTests;
+			sourceTree = "<group>";
+		};
+		3A03DCA31627511400E901BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A03DCA41627511400E901BB /* spycamTests-Info.plist */,
+				3A03DCA51627511400E901BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A03DC791627511300E901BB /* spycam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A03DCAD1627511400E901BB /* Build configuration list for PBXNativeTarget "spycam" */;
+			buildPhases = (
+				3A03DC761627511300E901BB /* Sources */,
+				3A03DC771627511300E901BB /* Frameworks */,
+				3A03DC781627511300E901BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spycam;
+			productName = spycam;
+			productReference = 3A03DC7A1627511300E901BB /* spycam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A03DC9A1627511400E901BB /* spycamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A03DCB01627511400E901BB /* Build configuration list for PBXNativeTarget "spycamTests" */;
+			buildPhases = (
+				3A03DC961627511400E901BB /* Sources */,
+				3A03DC971627511400E901BB /* Frameworks */,
+				3A03DC981627511400E901BB /* Resources */,
+				3A03DC991627511400E901BB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A03DCA11627511400E901BB /* PBXTargetDependency */,
+			);
+			name = spycamTests;
+			productName = spycamTests;
+			productReference = 3A03DC9B1627511400E901BB /* spycamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A03DC711627511300E901BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Harsh Juneja";
+			};
+			buildConfigurationList = 3A03DC741627511300E901BB /* Build configuration list for PBXProject "spycam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A03DC6F1627511300E901BB;
+			productRefGroup = 3A03DC7B1627511300E901BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A03DC791627511300E901BB /* spycam */,
+				3A03DC9A1627511400E901BB /* spycamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A03DC781627511300E901BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DC891627511300E901BB /* InfoPlist.strings in Resources */,
+				3A03DC921627511400E901BB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A03DC981627511400E901BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DCA71627511400E901BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A03DC991627511400E901BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A03DC761627511300E901BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DC8B1627511400E901BB /* main.m in Sources */,
+				3A03DC8F1627511400E901BB /* HelloWorldAppDelegate.m in Sources */,
+				3A03DC951627511400E901BB /* HelloWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A03DC961627511400E901BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03DCAA1627511400E901BB /* spycamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A03DCA11627511400E901BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A03DC791627511300E901BB /* spycam */;
+			targetProxy = 3A03DCA01627511400E901BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A03DC871627511300E901BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03DC881627511300E901BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A03DC901627511400E901BB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03DC911627511400E901BB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3A03DCA51627511400E901BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03DCA61627511400E901BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A03DCAB1627511400E901BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A03DCAC1627511400E901BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A03DCAE1627511400E901BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spycam/spycam-Prefix.pch";
+				INFOPLIST_FILE = "spycam/spycam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A03DCAF1627511400E901BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spycam/spycam-Prefix.pch";
+				INFOPLIST_FILE = "spycam/spycam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A03DCB11627511400E901BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spycam.app/spycam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spycam/spycam-Prefix.pch";
+				INFOPLIST_FILE = "spycamTests/spycamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3A03DCB21627511400E901BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spycam.app/spycam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spycam/spycam-Prefix.pch";
+				INFOPLIST_FILE = "spycamTests/spycamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A03DC741627511300E901BB /* Build configuration list for PBXProject "spycam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A03DCAB1627511400E901BB /* Debug */,
+				3A03DCAC1627511400E901BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A03DCAD1627511400E901BB /* Build configuration list for PBXNativeTarget "spycam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A03DCAE1627511400E901BB /* Debug */,
+				3A03DCAF1627511400E901BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A03DCB01627511400E901BB /* Build configuration list for PBXNativeTarget "spycamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A03DCB11627511400E901BB /* Debug */,
+				3A03DCB21627511400E901BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A03DC711627511300E901BB /* Project object */;
+}
