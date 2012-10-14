@@ -90,6 +90,13 @@
 /*added source : http://developer.apple.com/library/ios/#documentation/AudioVideo/Conceptual/CameraAndPhotoLib_TopicsForIOS/Articles/TakingPicturesAndMovies.html
 */
 
+/* adding more: same link   */
+- (IBAction) showCameraUI {
+    [self startCameraControllerFromViewController: self
+                                    usingDelegate: self];
+}
+// added till here...Harsh juneja
+
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
