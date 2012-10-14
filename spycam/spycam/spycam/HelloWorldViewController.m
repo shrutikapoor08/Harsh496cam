@@ -55,6 +55,41 @@
     [alert show];
     [alert release];
 }
+// added by Harsh Juneja, tuesday october 13,2012
+- (BOOL) startCameraControllerFromViewController: (UIViewController*) controller
+                                   usingDelegate: (id <UIImagePickerControllerDelegate,
+                                                   UINavigationControllerDelegate>) delegate {
+    
+    if (([UIImagePickerController isSourceTypeAvailable:
+          UIImagePickerControllerSourceTypeCamera] == NO)
+        || (delegate == nil)
+        || (controller == nil))
+        return NO;
+    
+    
+    UIImagePickerController *cameraUI = [[UIImagePickerController alloc] init];
+    cameraUI.sourceType = UIImagePickerControllerSourceTypeCamera;
+    
+    // Displays a control that allows the user to choose picture or
+    // movie capture, if both are available:
+    cameraUI.mediaTypes =
+    [UIImagePickerController availableMediaTypesForSourceType:
+     UIImagePickerControllerSourceTypeCamera];
+    
+    // Hides the controls for moving & scaling pictures, or for
+    // trimming movies. To instead show the controls, use YES.
+    cameraUI.allowsEditing = NO;
+    
+    cameraUI.delegate = delegate;
+    
+    [controller presentModalViewController: cameraUI animated: YES];
+    return YES;
+}
+
+// added till here ...to be precise the function returning a boolean value.
+/*added source : http://developer.apple.com/library/ios/#documentation/AudioVideo/Conceptual/CameraAndPhotoLib_TopicsForIOS/Articles/TakingPicturesAndMovies.html
+*/
+
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
