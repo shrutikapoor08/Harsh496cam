@@ -98,6 +98,15 @@
 // added till here...Harsh juneja
 
 
+
+
+
+
+
+
+
+
+
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
 	// Access the uncropped image from info dictionary
