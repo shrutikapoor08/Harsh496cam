@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A65F9D016324DB8008968E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9CF16324DB8008968E1 /* UIKit.framework */; };
+		3A65F9D216324DB8008968E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9D116324DB8008968E1 /* Foundation.framework */; };
+		3A65F9D416324DB8008968E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9D316324DB8008968E1 /* CoreGraphics.framework */; };
+		3A65F9DA16324DB8008968E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A65F9D816324DB8008968E1 /* InfoPlist.strings */; };
+		3A65F9DC16324DB8008968E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65F9DB16324DB8008968E1 /* main.m */; };
+		3A65F9E016324DB9008968E1 /* TouchMotionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65F9DF16324DB9008968E1 /* TouchMotionAppDelegate.m */; };
+		3A65F9E316324DB9008968E1 /* TouchMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65F9E216324DB9008968E1 /* TouchMotionViewController.m */; };
+		3A65F9E616324DB9008968E1 /* TouchMotionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A65F9E416324DB9008968E1 /* TouchMotionViewController.xib */; };
+		3A65F9EE16324DB9008968E1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9ED16324DB9008968E1 /* SenTestingKit.framework */; };
+		3A65F9EF16324DB9008968E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9CF16324DB8008968E1 /* UIKit.framework */; };
+		3A65F9F016324DB9008968E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65F9D116324DB8008968E1 /* Foundation.framework */; };
+		3A65F9F816324DB9008968E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A65F9F616324DB9008968E1 /* InfoPlist.strings */; };
+		3A65F9FB16324DB9008968E1 /* TouchMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65F9FA16324DB9008968E1 /* TouchMotionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A65F9F116324DB9008968E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A65F9C216324DB8008968E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A65F9CA16324DB8008968E1;
+			remoteInfo = TouchMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A65F9CB16324DB8008968E1 /* TouchMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65F9CF16324DB8008968E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A65F9D116324DB8008968E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A65F9D316324DB8008968E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A65F9D716324DB8008968E1 /* TouchMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchMotion-Info.plist"; sourceTree = "<group>"; };
+		3A65F9D916324DB8008968E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A65F9DB16324DB8008968E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A65F9DD16324DB8008968E1 /* TouchMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchMotion-Prefix.pch"; sourceTree = "<group>"; };
+		3A65F9DE16324DB8008968E1 /* TouchMotionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchMotionAppDelegate.h; sourceTree = "<group>"; };
+		3A65F9DF16324DB9008968E1 /* TouchMotionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchMotionAppDelegate.m; sourceTree = "<group>"; };
+		3A65F9E116324DB9008968E1 /* TouchMotionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchMotionViewController.h; sourceTree = "<group>"; };
+		3A65F9E216324DB9008968E1 /* TouchMotionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchMotionViewController.m; sourceTree = "<group>"; };
+		3A65F9E516324DB9008968E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TouchMotionViewController.xib; sourceTree = "<group>"; };
+		3A65F9EC16324DB9008968E1 /* TouchMotionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchMotionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65F9ED16324DB9008968E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A65F9F516324DB9008968E1 /* TouchMotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchMotionTests-Info.plist"; sourceTree = "<group>"; };
+		3A65F9F716324DB9008968E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A65F9F916324DB9008968E1 /* TouchMotionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchMotionTests.h; sourceTree = "<group>"; };
+		3A65F9FA16324DB9008968E1 /* TouchMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchMotionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A65F9C816324DB8008968E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9D016324DB8008968E1 /* UIKit.framework in Frameworks */,
+				3A65F9D216324DB8008968E1 /* Foundation.framework in Frameworks */,
+				3A65F9D416324DB8008968E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65F9E816324DB9008968E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9EE16324DB9008968E1 /* SenTestingKit.framework in Frameworks */,
+				3A65F9EF16324DB9008968E1 /* UIKit.framework in Frameworks */,
+				3A65F9F016324DB9008968E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A65F9C016324DB8008968E1 = {
+			isa = PBXGroup;
+			children = (
+				3A65F9D516324DB8008968E1 /* TouchMotion */,
+				3A65F9F316324DB9008968E1 /* TouchMotionTests */,
+				3A65F9CE16324DB8008968E1 /* Frameworks */,
+				3A65F9CC16324DB8008968E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A65F9CC16324DB8008968E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9CB16324DB8008968E1 /* TouchMotion.app */,
+				3A65F9EC16324DB9008968E1 /* TouchMotionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A65F9CE16324DB8008968E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9CF16324DB8008968E1 /* UIKit.framework */,
+				3A65F9D116324DB8008968E1 /* Foundation.framework */,
+				3A65F9D316324DB8008968E1 /* CoreGraphics.framework */,
+				3A65F9ED16324DB9008968E1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A65F9D516324DB8008968E1 /* TouchMotion */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9DE16324DB8008968E1 /* TouchMotionAppDelegate.h */,
+				3A65F9DF16324DB9008968E1 /* TouchMotionAppDelegate.m */,
+				3A65F9E116324DB9008968E1 /* TouchMotionViewController.h */,
+				3A65F9E216324DB9008968E1 /* TouchMotionViewController.m */,
+				3A65F9E416324DB9008968E1 /* TouchMotionViewController.xib */,
+				3A65F9D616324DB8008968E1 /* Supporting Files */,
+			);
+			path = TouchMotion;
+			sourceTree = "<group>";
+		};
+		3A65F9D616324DB8008968E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9D716324DB8008968E1 /* TouchMotion-Info.plist */,
+				3A65F9D816324DB8008968E1 /* InfoPlist.strings */,
+				3A65F9DB16324DB8008968E1 /* main.m */,
+				3A65F9DD16324DB8008968E1 /* TouchMotion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A65F9F316324DB9008968E1 /* TouchMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9F916324DB9008968E1 /* TouchMotionTests.h */,
+				3A65F9FA16324DB9008968E1 /* TouchMotionTests.m */,
+				3A65F9F416324DB9008968E1 /* Supporting Files */,
+			);
+			path = TouchMotionTests;
+			sourceTree = "<group>";
+		};
+		3A65F9F416324DB9008968E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A65F9F516324DB9008968E1 /* TouchMotionTests-Info.plist */,
+				3A65F9F616324DB9008968E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A65F9CA16324DB8008968E1 /* TouchMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A65F9FE16324DB9008968E1 /* Build configuration list for PBXNativeTarget "TouchMotion" */;
+			buildPhases = (
+				3A65F9C716324DB8008968E1 /* Sources */,
+				3A65F9C816324DB8008968E1 /* Frameworks */,
+				3A65F9C916324DB8008968E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchMotion;
+			productName = TouchMotion;
+			productReference = 3A65F9CB16324DB8008968E1 /* TouchMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A65F9EB16324DB9008968E1 /* TouchMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A65FA0116324DB9008968E1 /* Build configuration list for PBXNativeTarget "TouchMotionTests" */;
+			buildPhases = (
+				3A65F9E716324DB9008968E1 /* Sources */,
+				3A65F9E816324DB9008968E1 /* Frameworks */,
+				3A65F9E916324DB9008968E1 /* Resources */,
+				3A65F9EA16324DB9008968E1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A65F9F216324DB9008968E1 /* PBXTargetDependency */,
+			);
+			name = TouchMotionTests;
+			productName = TouchMotionTests;
+			productReference = 3A65F9EC16324DB9008968E1 /* TouchMotionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A65F9C216324DB8008968E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TouchMotion;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Harsh Juneja";
+			};
+			buildConfigurationList = 3A65F9C516324DB8008968E1 /* Build configuration list for PBXProject "TouchMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A65F9C016324DB8008968E1;
+			productRefGroup = 3A65F9CC16324DB8008968E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A65F9CA16324DB8008968E1 /* TouchMotion */,
+				3A65F9EB16324DB9008968E1 /* TouchMotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A65F9C916324DB8008968E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9DA16324DB8008968E1 /* InfoPlist.strings in Resources */,
+				3A65F9E616324DB9008968E1 /* TouchMotionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65F9E916324DB9008968E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9F816324DB9008968E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A65F9EA16324DB9008968E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A65F9C716324DB8008968E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9DC16324DB8008968E1 /* main.m in Sources */,
+				3A65F9E016324DB9008968E1 /* TouchMotionAppDelegate.m in Sources */,
+				3A65F9E316324DB9008968E1 /* TouchMotionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65F9E716324DB9008968E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65F9FB16324DB9008968E1 /* TouchMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A65F9F216324DB9008968E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A65F9CA16324DB8008968E1 /* TouchMotion */;
+			targetProxy = 3A65F9F116324DB9008968E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A65F9D816324DB8008968E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65F9D916324DB8008968E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A65F9E416324DB9008968E1 /* TouchMotionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65F9E516324DB9008968E1 /* en */,
+			);
+			name = TouchMotionViewController.xib;
+			sourceTree = "<group>";
+		};
+		3A65F9F616324DB9008968E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65F9F716324DB9008968E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A65F9FC16324DB9008968E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A65F9FD16324DB9008968E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A65F9FF16324DB9008968E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchMotion/TouchMotion-Prefix.pch";
+				INFOPLIST_FILE = "TouchMotion/TouchMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A65FA0016324DB9008968E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchMotion/TouchMotion-Prefix.pch";
+				INFOPLIST_FILE = "TouchMotion/TouchMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A65FA0216324DB9008968E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchMotion.app/TouchMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchMotion/TouchMotion-Prefix.pch";
+				INFOPLIST_FILE = "TouchMotionTests/TouchMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3A65FA0316324DB9008968E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchMotion.app/TouchMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchMotion/TouchMotion-Prefix.pch";
+				INFOPLIST_FILE = "TouchMotionTests/TouchMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A65F9C516324DB8008968E1 /* Build configuration list for PBXProject "TouchMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65F9FC16324DB9008968E1 /* Debug */,
+				3A65F9FD16324DB9008968E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A65F9FE16324DB9008968E1 /* Build configuration list for PBXNativeTarget "TouchMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65F9FF16324DB9008968E1 /* Debug */,
+				3A65FA0016324DB9008968E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A65FA0116324DB9008968E1 /* Build configuration list for PBXNativeTarget "TouchMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65FA0216324DB9008968E1 /* Debug */,
+				3A65FA0316324DB9008968E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A65F9C216324DB8008968E1 /* Project object */;
+}
